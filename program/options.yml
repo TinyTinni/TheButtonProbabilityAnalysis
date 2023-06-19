@@ -1,0 +1,17 @@
+%YAML:1.0
+# how many runs the program should do
+# you should test it with a low number
+runs: 10
+
+# the region of interest where the button is on your screen
+# make sure that nothing else is in the ROI but just the button.
+# the the example.png for an example
+roi:
+  x: 300
+  y: 200
+  width: 2000
+  height: 700
+
+# 0 for the primary screen
+screen_number: 0
+

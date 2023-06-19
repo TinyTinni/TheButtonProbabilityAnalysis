@@ -85,7 +85,7 @@ We all love PCs, because they can do work, we don’t want to do.
 Therefore, there is a little program in this repository which can do the
 work for us.
 
-This program will simply capture every image on screen \#1, limit the
+This [program](./program) will simply capture every image on screen \#1, limit the
 image so that only the button is visible. Do some OpenCV stuff to
 extract the numbers (you need the red! button, no other color) and
 recognize the extracted numbers. It reports the number in a csv file.
@@ -106,7 +106,7 @@ new number.
 With this program, it is possible for us to have multiple runs.
 
 I, for both of us, let it run for around 10k rounds. The raw data is
-also in the repository under [*data*](./data).
+also in the repository under [*data*](./report/data).
 
 # Total Reproducible Results
 
@@ -123,13 +123,13 @@ less than 77.7MB! he 77.7MB must contain secrets!
 
 I got sidetracked, back to the data.
 
-The [*out.csv*](./data/out.csv) file just contains every number the
+The [*out.csv*](./report/data/out.csv) file just contains every number the
 program saw before each button press. The csv let your bleed your eyes,
 as it has only 1 column. I am just slightly sorry for that format, just
 don’t look at it as it is just there to have raw data and the second one
 is more interesting.
 
-The second, [*stats.csv*](./data/stats.csv), has the count of seen
+The second, [*stats.csv*](./report/data/stats.csv), has the count of seen
 number grouped by the number.
 
 With this, we can very simple compute the probability for every step, by
